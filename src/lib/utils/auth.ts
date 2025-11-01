@@ -8,6 +8,12 @@ export async function getUserRole(): Promise<UserRole> {
   const { sessionClaims } = await auth();
   // @ts-ignore - Clerk metadata typing
   const role = sessionClaims?.publicMetadata?.role as UserRole;
+  
+  console.log('🔍 getUserRole called');
+  console.log('  - publicMetadata:', sessionClaims?.publicMetadata);
+  console.log('  - detected role:', role);
+  console.log('  - returning:', role || 'user');
+  
   return role || 'user'; // Default to 'user' role
 }
 
