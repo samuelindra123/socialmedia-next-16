@@ -19,6 +19,41 @@
 
 ---
 
+## 🚀 Quick Start
+
+```bash
+# Clone repository
+git clone https://github.com/samuelindra123/socialmedia-next-16.git
+cd socialmedia-next-16
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+```
+
+**Open**: [http://localhost:3000](http://localhost:3000)
+
+---
+
+## 📚 Documentation
+
+### 👉 **Start Here!**
+- **[START_HERE.md](./START_HERE.md)** - Quick overview & getting started
+
+### 🎯 Main Guides
+- **[SIMPLE_ROLE_SETUP.md](./SIMPLE_ROLE_SETUP.md)** ⭐ - Role system setup (User & Admin)
+- **[VISUAL_GUIDE.md](./VISUAL_GUIDE.md)** - Visual flowcharts & diagrams
+- **[PROJECT_STRUCTURE.md](./PROJECT_STRUCTURE.md)** - File structure & architecture
+
+### 📖 Reference
+- **[SETUP_COMPLETE.md](./SETUP_COMPLETE.md)** - Complete setup checklist
+- **[CLERK_ROLES_SETUP.md](./CLERK_ROLES_SETUP.md)** - Advanced Clerk configuration
+- **[QUICK_ROLE_SETUP.md](./QUICK_ROLE_SETUP.md)** - Quick reference guide
+
+---
+
 ## 📖 Tentang Proyek
 
 **SocialMedia Renungan Kristen** adalah platform sosial modern yang dirancang untuk membantu jemaat Kristen berbagi dan membaca renungan harian. Dengan desain minimalis dan performa tinggi, aplikasi ini memfasilitasi komunitas iman untuk saling menguatkan melalui firman Tuhan.
